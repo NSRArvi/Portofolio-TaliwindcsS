@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>NSR Arvi</title>
+  <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body class="bg-body mx-auto">
+    <!-- navbar -->
+    <section class="flex justify-between items-center py-8 px-8">
+
+
+        <div class="logo text-white font-semibold font-poppins">
+            NSR-DevCom
+        </div>
+
+        <div class="navbar">
+            <!-- hamburger -->
+            <div class="animate-pulse hamburger flex-col space-y-1 md:hidden">
+                <div class="line text-white h-0.5 w-6 border border-white"></div>
+                <div class="line text-white h-0.5 w-3 border border-white"></div>
+                <div class="line text-white h-0.5 w-6 border border-white"></div>
+            </div>
+            <!-- link -->
+            <div class="hidden md:block">
+                <ul class="flex space-x-8 text-white items-center">
+                    <li class="text-[#A3A3ff]">Home</li>
+                    <li>My works</li>
+                    <li>Clients</li>
+                    <li class="bg-theme py-2 px-3">Hire me</li>
+                </ul>
+            </div>
+        </div>
+
+        
+    </section>
+    <!-- banner -->
+    <section class="md:flex px-10 my-10 md:justify-between">
+        
+        <div class="content my-12 md:mt-36 lg:mt-48 lg:ml-48">
+            <h1 class="font-bold text-5xl md:text-6xl lg-7xl text-center md:text-left text-white">
+                Building <br> beautiful web <br> experiences.
+            </h1>
+            <div class="btn flex justify-center md:justify-start mt-12">
+                <button class="text-white font-bold font-poppins py-4 px-8 bg-theme">
+                    View my work
+                </button>
+            </div>
+            
+        </div>
+        <div class="banner-image w-1/3 md:w-2/4 sm:hidden md:block">
+            <img src="/assets/nashed.5d788aad.png" alt="nashed">
+        </div>
+    </section>
+
+    <!-- my works -->
+    <section class="mx-8">
+        <div class="line bg-theme w-10 h-2"></div>
+        <div class="content text-white my-2">
+            <h1 class="text-3xl font-semibold">My work</h1>
+            <p class="my-2 text-gray-400">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+        </div>
+        <div class="my-projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-2 my-5">
+            <div class="hidden"></div>
+            <div class="projects1 bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects3 bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects4 sm:hidden md:block bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects2 sm:hidden md:block bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects5 sm:hidden md:block bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects6 sm:hidden md:block bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects7 sm:hidden md:block bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects8 sm:hidden md:block bg-nav w-full h-36 lg:h-48"></div>
+            <div class="projects9 sm:hidden md:block bg-nav w-full h-36 lg:h-48 md:col-span-2 lg:col-auto"></div>
+        </div>
+    </section>
+
+    <!-- clients -->
+    <section class="mx-8">
+        <div class="line bg-theme w-10 h-2 rounded-md"></div>
+        <div class="content text-white my-2">
+            <h1 class="text-3xl font-semibold">Clients</h1>
+            <p class="my-2 text-gray-400">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+        </div>
+
+        <div class="card my-8 space-y-3 md:grid md:grid-cols-3 gap-4">
+            <div class="hidden">
+
+            </div>
+
+            <div class="border-2 border-nav gap-5 px-8 py-8 lg:flex lg:px-16 lg:py-16 lg:gap-8">
+                <div class="client-image flex justify-center">
+                    <img src="data:image/png;base64,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" alt="" class="w-24 lg:w-96">
+                </div>
+                <div class="client-content text-white text-center lg:text-left">
+                    <h1 class="text-4xl font-semibold my-3">Apple, inc.</h1>
+                    <div class="btn mt-5">
+                        <button class="px-3 py-2 bg-nav mx-1 my-2 rounded-md">UI/UX</button>
+                        <button class="px-3 py-2 bg-nav mx-1 my-2 rounded-md">Frontend Development</button>
+                    </div>
+                    <p class="mt-8 text-gray-400">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+                </div>
+
+            </div>
+
+            <div class="border-2 border-nav gap-5 px-8 py-8 lg:flex lg:px-16 lg:py-16 lg:gap-8">
+                <div class="client-image flex justify-center">
+                    <img src="/assets/icons8-developer-64 (1).5a736fba.png" alt="" class="w-24 lg:w-96">
+                </div>
+                <div class="client-content text-white text-center lg:text-left">
+                    <h1 class="text-4xl font-semibold my-3">Meta</h1>
+                    <div class="btn mt-5">
+                        <button class="px-3 py-2 bg-nav mx-1 my-2 rounded-md">UI/UX</button>
+                        <button class="px-3 py-2 bg-nav mx-1 my-2 rounded-md">Frontend Development</button>
+                    </div>
+                    <p class="mt-8 text-gray-400">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+                </div>
+
+            </div>
+
+            <div class="border-2 border-nav gap-5 px-8 py-8 lg:flex lg:px-16 lg:py-16 lg:gap-8">
+                <div class="client-image flex justify-center">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAEXUlEQVRoge1YX2hbZRT/nZutXZPO2jTp2mqtdkQt1c5u0+GqzIeJFF/qBooypsJwMoZ1YHWTZEQjjG0+DF1FfRDGHnSPgjjU7o8idgrtXBHdLKsGhmubP0vszW3a5t7jw83S3Ca5ufeGUsvye7p833fO+f2+c77zfQlQRhm3NqhkD8zki0gbAfSA+XGAPABqASgAQgSMM/EFZvouKdvPvd9AiZJjZsGygFeYV9ZHpF3EOACg2aDZDRD6U3PKB4caV4esxs6GJQEHI+KTrKA/vdtWECfi3ndd1Scs2mdgWoA3JO0j8FEAtlKDM/hUPOZ48UMPzVj1YUrAwbB4jJl6rQYrgNM20b7Nfw8lrRgLRhf6wtLeRSAPAN3yaumkVWNDGfCFprcAygCAFVYDFQMDr77ndnxi1q6oAD+zIIelYQDrLDEzDskGePxuxz9mjIqWkBxJ7MDikwcAuwzuM2tk4AzQG1bYWAPt9sfjTjMWugK8E8m1YDxYGilTqFJmbd1mDPQzIKR6rDJRZhnRSxJ4js3ZAU+bWa8rgJg2680nQyn8+Vn+F8GN36bx9dYr+KJ1BD/uDmrmxk5FISeV/DFB3X7mCl3WWdAVwITWQnPJcAoD20fxy1vXcDGQ2zhCQ+qbTU4qELKa78iR6/hpbxBnnr2KVELO5/p2JZrYYox+sQwANXnJh1IY6BlF7A/18vz9o0nEL2sv0vDQ/KOzrtMOAAj9LGLk6DgAYHJQxPmdY3kzwTIZLl3DN3GGfHrnY1dUwmQjdB1vQc39qxYIkDLfrg0OAIB7UzU2vHNHZnz8BzF/Jgg9YDZ0yeqXEBDPIb9tfufJRujqb8Hd22s1djNRGWJQfZ8JFQJq2+fFte2p14iYHBRx9vmxhSKafJHpR0oWQITRm9+zMVlTNgDQ9XEueQCIDCeAdPNxdlRBqNCGadtTj3X7GzUizu8cA6eyOpYCQ2VUJAM8dPO7osYG9+Zqzfz1s/+C8zST8PB8/bvWO3Lm5aSCiUFRM9bw2G2gFVlVQ3hGn7oK/Qwo9G2WQ2w63AzPy67M0NXPo7jwejBHhLb+q3LIn9sxhvHvpzJjD73dhAf2rVkQne/zhqfaShIQqHdcBHBpoYh7X9IRwUDk1/wZME4+HU4RimbBSBc6rvUKPHy4GWtfqNOIuPaNet6n/kpiJqoeyEqnDdUtlZl1wS9jGvKd3sLk07GKnoOiAiZc9hMAXdb4FYBHj92VyUTHm41o7lavjPDQdGZd3XqH5sHe+pwTnb4mAOrOt/fqkFex0R+R7ixJwKdEc1CwC4C2Wacz8cTJVnT0NWSG5xIyKp3q1ZvvALe/tgZPfeXR3/msKDLrZ8Hwb2JvSOwj0BGj68W/ZyCsEmBvWGnUpADoTMBt31pw1owr36R0CMT7S2RUFAG3wzAvU0+JQL39gHk6iwvTb6H/G8oClhplAUuNZS9g0f4qLAQzPd4Iln0GygKWGmUBS41lL6CMMm51/AegC5BWJqZB7wAAAABJRU5ErkJggg==" alt="" class="w-24 lg:w-96">
+                </div>
+                <div class="client-content text-white text-center lg:text-left">
+                    <h1 class="text-4xl font-semibold my-3">Brain Station23</h1>
+                    <div class="btn mt-5">
+                        <button class="px-3 py-2 bg-nav mx-1 my-2 rounded-md">UI/UX</button>
+                        <button class="px-3 py-2 bg-nav mx-1 my-2 rounded-md">Frontend Development</button>
+                    </div>
+                    <p class="mt-8 text-gray-400">I’ve had the pleasure of working with multiple Fortune 500 companies, designing and implementing both frontend and backend.</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- form -->
+    <section class="mx-8">
+        <div class="line bg-theme w-10 h-2 rounded-md"></div>
+        <div class="content text-white my-2">
+            <h1 class="text-3xl font-semibold">Clients</h1>
+            <p class="my-2 text-gray-400">Fell Free to contact me anytime.</p>
+        </div>
+
+       <div class="grid md:grid-cols-2 gap-8">
+
+        <div class="form text-white my-8">
+            
+           
+            <p class="text-xl font-bold font-poppins my-6">Name</p>
+            <input class="p-5 w-full bg-input border border-nav my-2 rounded-md outline outline-theme" type="text">
+            
+            <p class="text-xl font-bold font-poppins my-6">Email</p>
+            <input class="p-5 w-full bg-input border border-nav my-2 rounded-md outline outline-theme" type="email">
+
+            <p class="text-xl font-bold font-poppins my-6">Message</p>
+            <input class="p-5 h-48 w-full bg-input border border-nav my-2 rounded-md outline outline-theme" type="text">
+
+            <button class="rounded-md px-6 py-3 bg-theme font-semibold my-5">Send it!</button>
+         
+
+        </div>
+
+        <div class="my-24">
+            <img src="data:image/png;base64,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" alt="">
+            <p class="text-white my-2">+880-131821-4398</p>
+            <a class="text-white my-2" href="">nashedshah@gmail.com</a>
+ 
+            <div class="flex gap-8 my-8">
+                <img class="" src="data:image/png;base64,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" alt="">
+                <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAE20lEQVRoge3YW2yTdRgG8Odta8GBzh3KoIOd7BzxiGICISCi3GDigQQmEYMYgk4JckEGKGAaTTSiaAwCTsF5gSEuiiEGvSIalwWIohciCE4YbMDKtnbrTh3t9z5ebMWNfB/raRsXfe6+Nf+3v6f/r/2WP5BOOumkk04SkbF408LdVx5UkRVULiRlGkAniYtUHlEba3xr8g5BhGZrsz6+VBBY574QvbYsULa/290XyvA3vCihVMFLqvyZYeVuQJeREBIACBJg/wVIgsRREa5qfm3Kyeja7O3NswXGJqr86690rx+2wN1fdX1BSuYpZ0Y5ysVIFj9tR4ubDjks4PR+sCV+4FraCW4leS+IRSQLSPjtevWelg3FzTcs4PmB45z+nlaAEwF8OSl/wuqfF0gkUXxR9bnxRui2WoAPx4aH2WsRIZa0VeYfHDzbZvaG4/w99w/gQXJlc2P3gZlVzEi0QKR34tok8d0gl9t49VjWtguvZL3X9DpIsSxAgXvwYIBPdo0P1pXtDZbFrffSIYINSeABsJHA9jAclwFZB/btin7JTQuIoZ3/L44Okhm083hpdXsFvDRdZ5Z8V+s8ErlJ4EFiOsmpAJoiEXkqsOnOjuh8U0jYbjQMxV8bNIHEbk9Bx6/F1f55sRQQG+9LEj/wd/7uIGd1vjH1zOD5pgXO/JPZAEiD+SCA5ENiyC/FewK1hZ8FFqOGdqsCpM2VPB5nx4nzkdaNBZeun29+K3hFCe658ScHgJwr4IHCQNvloqq2qsJPrzxRsKs9a/AoobYmiQfJdl/l5G4zquVzwLOv7XZbxPEHiRJTvEUxgCRxhorTAjYaQB7IJYnjAYJ1wY0Fc82cDqsC9c/nBD3VHctBHgaQESMe7H/ClkFYpkR0QeL4/teCVk7TW6i0uuO5u6qDNYDhAvACSV+M+GR+Kq3wAHntf5/rY7EDbFFyKWBbGscnPzJ4EArWWxUw3QGbho8CCN8MeBIQ4nhcBU6vcnWS+t3NgCcZ7go7j8VVAADE4Fsk+sYYDwhq4XX3xF2g/qWcvwCuH1M8ACq+tTLesAAAnFudvZPK9QAiY4In+2yRyDcJFwCA8xU5H0Iwn2TdKOMBYH+X13MlqQKFVS1TDDXuEOhGAl4q/KOBJ6E2MbYP57N8Ekdjh71HaXytlIkkABkVPATY17XZc2I437A7cPbl7A6lvDNat80APkgxtgxni6kAAFzMzdkG8NBo4AFAicreLZ7GlBVAuRiRHn1Wge9HGg/yYGhr0ecxuWIuAMBXObm7eY3raSVXkWgYCTzJU71qrLA61DJLYidzNbS7mi7PgU3mULkMwIwU4M9D5dGQt7ghHkrMOzAk5WKEpe9PKksBPJAavP2xePFAAjvg/uBSbtiBCirWApiUAvwRux2LuzeX+OK1xFwg7yNfCYQLCH2clGdI3joUkhBeobqjl7ZN8BYnfP46tAApU3e2LIoAFSBzQbpITCajp3Sp+cIScgLUV0NvltQmCjcvMJD8T5pyIoZjM4DVKcVD6qn6dkiL98ErmizeskA0ee83T1Anl0CxkuR8AJIAPqDKHwnZG9pS+FM8P5FJFxiczHfPZ9lucc4W6iwRzlQin2Q2BDlUjCfZSSIA0KeUk4D+rWBtr6fot1Qcz6eTTjrppDMi+Q8fgF/hmeYFBwAAAABJRU5ErkJggg==" alt="">
+                <img class="" src="./images/icons8-github-48.png " alt="">
+            </div>
+     
+        </div>
+        
+
+       </div>
+
+       
+
+    </section>
+    
+
+
+
+</body>
+</html>
